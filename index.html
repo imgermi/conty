@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+	<link rel="manifest" href="assets/favicon/site.webmanifest">
+	<link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#ffcd3f">
+	<meta name="msapplication-TileColor" content="#7800ff">
+	<meta name="theme-color" content="#ffcd3f">
+
+	<title>Conty - Una nueva forma de controlar tu facturación</title>
+	<style>
+		body {
+    	font-family: 'Lato', sans-serif;
+		}
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		section {
+			background: #FFCD3F;
+			display: flex;
+			width: 100%;
+			min-height: 100vh;
+			justify-content: center;
+			padding: 120px 15px 0px;
+		}
+		article {
+			text-align: left;
+			max-width: 600px;
+		}
+		h1 {
+			font-size: 39px;
+			font-weight: 900;
+			color: #111;
+			padding: 50px 0 10px;
+		}
+			@media(max-width: 767px) {
+				h1 {
+					font-size: 32px;
+					line-height: 36px;
+				}
+			}
+		h2 {
+			font-weight: 400;
+			color: #222;
+			margin-bottom: 40px;
+		}
+			@media(max-width: 767px) {
+				h2 {
+					font-size: 22px;
+					line-height: 28px;
+				}
+			}
+		.form {
+			padding: 30px 20px;
+			border: 5px solid #7800FF;
+		}
+		h3 {
+			font-size: 24px;
+			font-weight: 900;
+		}
+		h4 {
+			font-size: 18px;
+			font-weight: 400px;
+			color: #222;
+			margin-bottom: 15px
+		}
+		.form__inputs {
+			display: flex;
+			margin: 0 -5px 5px;
+		}
+			@media(max-width: 767px) {
+				.form__inputs {
+					display: block;
+					margin: 0 0 10px;
+				}
+			}
+		.form__inputs label {
+			margin: 5px;
+		}
+			@media(max-width: 767px) {
+				.form__inputs label {
+					margin: 5px 0;
+				}
+			}
+		.form__inputs label,
+		.form__inputs input {
+			display: block;
+			width: 100%;
+		}
+		.form__inputs input {
+			border-radius: 4px;
+			border: 0;
+			padding: 8px 15px;
+			font-size: 16px;
+		}
+		button {
+			background: #7800FF;
+			font-weight: 900;
+			font-size: 16px;
+			border: 0;
+			border-radius: 4px;
+			color: #fff;
+			padding: 8px 20px;
+			cursor: pointer;
+			transition: all 200ms ease-in;
+		}
+		button:hover {
+			opacity: 0.7;
+		}
+		footer {
+			padding: 50px 0;
+			color: #777;
+		}
+	</style>
+</head>
+<body>
+	<section>
+		<article>
+			<img src="assets/logo.svg" alt="Conty" />
+			<h1>Hola. Estamos creando una nueva forma de controlar tu facturación.</h1>
+			<h2>Es una aplicación web. Es simple. Tiene tan pocas funcionalidades que te va a resultar aburrida. Pero esa es la idea; que puedas concentrarte en tu trabajo, y no en los límites de tu facturación.</h2>
+			<div class="form">
+				<h3>Sumate a la lista de espera</h3>
+				<h4>Te vamos a notificar cuando Conty esté lista.</h4>
+				<form action="">
+					<div class="form__inputs">
+						<label for="">
+							<input type="text" placeholder="Nombre">
+						</label>
+						<label for="">
+							<input type="email" placeholder="Email">
+						</label>
+					</div>
+					<button type="submit">Notificame!</button>
+				</form>
+			</div>
+			<footer>
+				<p>©2019 Conty</p>
+				<p>info@conty.com.ar</p>
+			</footer>
+		</article>
+	</section>
+</body>
+</html>

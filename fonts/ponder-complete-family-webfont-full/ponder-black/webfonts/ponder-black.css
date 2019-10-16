@@ -1,0 +1,27 @@
+/*
+Font: 		Ponder
+Style: 		Black
+URL: 		https://www.youworkforthem.com/font/T11305/ponder
+Foundry: 	TypeUnion
+Foundry: 	https://www.youworkforthem.com/designer/420/typeunion
+Copyright:	Copyright © 2019 by TypeUnion. All rights reserved.
+Version: 	17
+Created:	September 19, 2019
+License: 	https://www.youworkforthem.com/font-license 
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted 
+			from using the WebFonts(s) listed without a purchased license. 
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'Ponder-Black';
+	src: url('ponder-black.eot');
+	src: url('ponder-black.eot?#iefix') format('embedded-opentype'),
+             url('ponder-black.woff2') format('woff2'),
+	     url('ponder-black.woff') format('woff'),
+	     url('ponder-black.ttf') format('truetype'),
+	     url('ponder-black.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
